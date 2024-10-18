@@ -18,6 +18,7 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.res.painterResource
+import androidx.compose.ui.text.font.FontFamily
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
@@ -43,33 +44,7 @@ class MainActivity : ComponentActivity() {
 
 @Preview(showBackground = true)
 @Composable
-fun BasicCompose(tiara: Modifier = Modifier){
-    Column(verticalArrangement = Arrangement.Center,
-        modifier = Modifier.fillMaxSize(),
-        horizontalAlignment = Alignment.CenterHorizontally
-    ){
-        Text(text = "Mata Kuliah", modifier = tiara,
-            fontSize = 50.sp,
-            color = Color.Red,
-            fontWeight = FontWeight.Bold
-        )
 
-        Text(text = "Pemrograman Aplikasi Mobile", modifier = tiara,
-            fontSize = 50.sp,
-            color = Color.Red,
-            fontWeight = FontWeight.Bold
-        )
-
-        Text(
-            text = "Nama",)
-
-
-        Image(painter = painterResource(id = R.drawable.kucingnya),
-            contentDescription = null,
-            Modifier.size(250.dp)        )
-
-    }
-}
 
 
 //@Preview(showBackground = true)
