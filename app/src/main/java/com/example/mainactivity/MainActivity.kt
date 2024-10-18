@@ -46,6 +46,11 @@ class MainActivity : ComponentActivity() {
 @Composable
 
 fun BasicCompose(tiara: Modifier = Modifier){
+    Column(verticalArrangement = Arrangement.Center,
+        modifier = Modifier.fillMaxSize(),
+        horizontalAlignment = Alignment.CenterHorizontally
+    )
+    {
 
 
 
