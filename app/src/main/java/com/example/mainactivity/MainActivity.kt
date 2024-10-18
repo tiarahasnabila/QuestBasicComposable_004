@@ -45,6 +45,8 @@ class MainActivity : ComponentActivity() {
 @Preview(showBackground = true)
 @Composable
 
+fun BasicCompose(tiara: Modifier = Modifier){
+
 
 
 //@Preview(showBackground = true)
