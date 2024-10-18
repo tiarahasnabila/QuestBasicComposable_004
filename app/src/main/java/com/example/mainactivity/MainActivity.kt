@@ -51,6 +51,9 @@ fun BasicCompose(tiara: Modifier = Modifier){
         horizontalAlignment = Alignment.CenterHorizontally
     )
     {
+        Text(text = "Login", modifier = tiara,
+            fontSize = 25.sp,
+    }
 
 
 
