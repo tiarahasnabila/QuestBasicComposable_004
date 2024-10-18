@@ -45,31 +45,42 @@ class MainActivity : ComponentActivity() {
 @Preview(showBackground = true)
 @Composable
 
-fun BasicCompose(tiara: Modifier = Modifier){
-    Column(verticalArrangement = Arrangement.Center,
+fun BasicCompose(tiara: Modifier = Modifier) {
+    Column(
+        verticalArrangement = Arrangement.Center,
         modifier = Modifier.fillMaxSize(),
         horizontalAlignment = Alignment.CenterHorizontally
     )
     {
-        Text(text = "Login", modifier = tiara,
+        Text(
+            text = "Login", modifier = tiara,
             fontSize = 25.sp,
             color = Color.Black,
-            fontWeight = FontWeight.Bold)
+            fontWeight = FontWeight.Bold
+        )
 
-        Text(text = "Ini halaman login",
+        Text(
+            text = "Ini halaman login",
             fontSize = 25.sp,
             color = Color.Gray,
             fontWeight = FontWeight.Bold,
             fontFamily = FontFamily.Monospace
         )
 
-        Image(painter = painterResource(id = R.drawable.logoumy),
+        Image(
+            painter = painterResource(id = R.drawable.logoumy),
             contentDescription = null,
-            Modifier.size(250.dp))
-
+            Modifier.size(250.dp)
+        )
+        Text(
+            text = "Nama",)
 
 
     }
+
+
+    }
+
 
 
 
