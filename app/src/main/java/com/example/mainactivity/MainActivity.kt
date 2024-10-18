@@ -64,7 +64,8 @@ fun BasicCompose(tiara: Modifier = Modifier){
         )
 
         Image(painter = painterResource(id = R.drawable.logoumy),
-
+            contentDescription = null,
+            Modifier.size(250.dp))
 
 
 
