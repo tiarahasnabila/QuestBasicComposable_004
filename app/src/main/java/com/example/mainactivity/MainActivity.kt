@@ -62,6 +62,12 @@ fun BasicCompose(tiara: Modifier = Modifier){
             fontWeight = FontWeight.Bold,
             fontFamily = FontFamily.Monospace
         )
+
+        Image(painter = painterResource(id = R.drawable.logoumy),
+
+
+
+
     }
 
 
