@@ -75,6 +75,9 @@ fun BasicCompose(tiara: Modifier = Modifier) {
         Text(
             text = "Nama",)
 
+        Text(
+            text = "Tiara Hasna Nabila",
+            fontSize = 25.sp,
 
     }
 
