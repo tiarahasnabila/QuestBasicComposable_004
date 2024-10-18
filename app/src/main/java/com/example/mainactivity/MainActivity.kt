@@ -80,7 +80,12 @@ fun BasicCompose(tiara: Modifier = Modifier) {
             fontSize = 25.sp,
             color = Color.Blue,
             fontWeight = FontWeight.Bold,
-            fontFamily = FontFamily.Serif
+            fontFamily = FontFamily.Serif)
+
+        Text(text = "20220140004",
+            fontSize = 25.sp,
+            color = Color.Green,
+        )
     }
 
 
