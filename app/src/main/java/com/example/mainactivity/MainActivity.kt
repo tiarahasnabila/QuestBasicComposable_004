@@ -78,7 +78,9 @@ fun BasicCompose(tiara: Modifier = Modifier) {
         Text(
             text = "Tiara Hasna Nabila",
             fontSize = 25.sp,
-
+            color = Color.Blue,
+            fontWeight = FontWeight.Bold,
+            fontFamily = FontFamily.Serif
     }
 
 
