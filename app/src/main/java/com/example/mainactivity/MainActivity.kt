@@ -55,6 +55,11 @@ fun BasicCompose(tiara: Modifier = Modifier){
             fontSize = 25.sp,
             color = Color.Black,
             fontWeight = FontWeight.Bold)
+
+        Text(text = "Ini halaman login",
+            fontSize = 25.sp,
+            color = Color.Gray,
+        )
     }
 
 
