@@ -90,11 +90,9 @@ fun BasicCompose(tiara: Modifier = Modifier) {
         )
 
         Image(painter = painterResource(id = R.drawable.fotonya),
-
-
+            contentDescription = null,
+            Modifier.size(270.dp))
     }
-
-
     }
 
 
