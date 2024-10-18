@@ -53,6 +53,8 @@ fun BasicCompose(tiara: Modifier = Modifier){
     {
         Text(text = "Login", modifier = tiara,
             fontSize = 25.sp,
+            color = Color.Black,
+            fontWeight = FontWeight.Bold)
     }
 
 
